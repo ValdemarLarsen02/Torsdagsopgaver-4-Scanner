@@ -11,7 +11,7 @@ public class Main {
 
         GameMenu gameMenu = new GameMenu(actions);
         
-        // Get user choice
+        // Get the user userChoice
         String userChoice = gameMenu.getAction();
         
         // Convert userChoice to int and call doAction
